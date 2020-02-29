@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0em;
+}
+body {
+    background: #257DC8;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.banner {
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    padding: 1em;
+    background: #fff;
+    border-radius: 2.5em;
+    margin-left: 0px;
+    width: 167, 4px;
+    height: 116, 1px;
+}
+ul li {
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+    background: rgb(0, 153, 0, 0.7);
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+ul li a:hover:not(.activo) {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+    background: rgb(0, 190, 253, 0.9);
+    border-radius: 2em;
+}
+ul li a.activo {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+    background: rgb(0, 190, 253, 0.9);
+    border-radius: 2em;
+}
+.menu {
+    text-align: center;
+    padding-top: 4em;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+.platos {
+    display: inline-block;
+    color: #fff;
+    background: rgb(0, 141, 221, 0.6);
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+.platos:hover {
+    display: inline-block;
+    color: #fff;
+    background: rgb(0, 190, 253, 0.7);
+    text-align: center;
+    margin: 10px;
+    border-radius: 3em;
+}
+footer {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 49px;
+}
+@media screen and (min-width: 1323px) {
+    .foto {
+        width: 350px;
+        height: 350px;
+    }
+}
+.contacto {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 450px;
+    height: 370px;
+    text-align: center;
+    color: #FE8707;
+    margin-top: 20px;
+    padding: 2em;
+}
+.registro {
+    background-color: rgb(0, 141, 221, 0.6);
+    width: 450px;
+    height: 485px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 2em;
+}
+.c {
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 100%;
+    border: none;
+    border-bottom: solid rgb(0, 51, 0, 0.9);
+    text-align: center;
+    color: rgb(0, 0, 102);
+}
+.c:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    border: none;
+    border-bottom: solid rgb(0, 0, 128);
+    transition-duration: 0.5s;
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    text-align: center;
+}
+.b1 {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 141, 221, 0.9);
+    border-color: solid black;
+    cursor: pointer;
+    color: rgb(0, 0, 102);
+    border-radius: 1em;
+}
+.b1:hover {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 0, 204);
+    border-color: solid black;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.historia {
+    margin-right: 30em;
+    margin-left: 1em;
+    background-color: rgb(0, 141, 221, 0.6);
+    margin-top: 5px;
+    width: 64%;
+}
+.historia2 {
+    margin-left: 30em;
+    background-color: rgb(0, 141, 221, 0.6);
+    margin-top: 5px;
+    width: 64%;
+}
+.titulo {
+    margin-left: 5px;
+    padding-top: 1em;
+    padding-left: 0.5em;
+}
+.relleno1 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.relleno2 {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+.inventario {
+    background-color: rgba(255, 48, 53, 0.8);
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+    color: #CCDD3D;
+}
+.i {
+    background-color: #EE404D;
+    width: 100%;
+    border: none;
+    border-bottom: solid #FF0000;
+    text-align: center;
+    color: #FFFFFF
+}
+.i:focus {
+    background-color: #EE404D;
+    width: 100%;
+    border: none;
+    border-bottom: solid #CC0707;
+    transition-duration: 0.2s;
+    text-align: center;
+}
+.b2 {
+    width: 100px;
+    height: 50px;
+    background-color: #BBCD1F;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.b2:hover {
+    width: 100px;
+    height: 50px;
+    background-color: #D6EB20;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.texto {
+    padding: 4em;
+}
+.iniciosesion {
+    text-decoration: none;
+    color: white;
+    margin-left: 1120px;
+    background-color: black;
+    padding: 1em;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 141, 221, 0.9);
+}
+.iniciosesion:hover {
+    color: black;
+    background-color: rgb(35, 92, 254, 0.9);
+}
+.iniciar {
+    background-color: rgb(0, 141, 221, 0.6);
+    width: 400px;
+    height: 256px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 2em;
+    font-size: 1em;
+}
+.boton2 {
+    width: 150px;
+    height: 50px;
+    font-size: 1.09em;
+    background-color: rgb(0, 141, 221, 0.9);
+    cursor: pointer;
+    color: rgb(0, 0, 102);
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4em;
+}
+.boton2:hover {
+    font-size: 1.09em;
+    background-color: rgb(0, 141, 221, 0.9);
+    cursor: pointer;
+    color: rgb(0, 0, 102);
+    border-radius: 0.8em;
+}
+.index {
+    padding-top: 4em;
+    padding-right: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.plato {
+    background-color: rgb(15, 224, 10, 0.6);
+    width: 450px;
+    height: 750px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 2em;
+}
+.c1 {
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 100%;
+    height: 25%;
+    border: none;
+    border-bottom: solid rgb(0, 51, 0, 0.9);
+    text-align: center;
+    color: rgb(0, 0, 102);
+}
+.imagen-menu {
+    text-align: center;
+    padding-top: 3em;
+    background: rgb(0, 153, 0, 0.7);
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 4em;
+    border-radius: 2em;
+}
+.imagen-menu2 {
+    border-radius: 3em;
+    padding: 2em;
+    width: 600px;
+    text-align: center;
+}
+.imagen-menu3 {
+    padding-top: 4em;
+    padding-left: 18em;
+    padding-right: 18em;
+    border-radius: 3em;
+}
+button {
+    background: rgb(0, 190, 253, 0.9);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.7s;
+}
+.button2 {
+    background: rgb(0, 153, 0, 0.7);
+    border: none;
+    border-radius: 2em;
+    color: white;
+    padding: 9px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.7s;
+}
+button:hover {
+    background-color: rgb(0, 141, 221, 0.6);
+    color: white;
+}
+.descripcion-menu {
+    border-left: 2em;
+    border-right: 9300px;
+    padding: 3em;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 141, 221, 0.9);
+    text-align: center;
+}
+.descripcion-menu2 {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    font-size: 20px;
+    font-style: 'times new roman';
+}
+.nombre-plato2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 141, 221, 0.9);
+    text-align: center;
+    border-radius: 3em;
+}
+.nombre-plato {
+    padding-left: 12em;
+    padding-right: 12em;
+    font-size: 20px;
+    font-family: 'times new roman';
+}
+.menu-plato {
+    text-align: center;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 2em;
+}
+.menu-plato2 {
+    text-align: center;
+    background: rgb(0, 153, 0, 0.7);
+}
+.nomplato {
+    padding-left: 34%;
+    padding-right: 34%;
+    padding-top: 4em;
+}
+.nomplato2 {
+    background-color: blue;
+    border-radius: .5em;
+    font-size: 2em;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 141, 221, 0.9);
+}
+.menu-photo {
+    padding-top: 1em;
+}
+.menu-text {
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+.menu-text2 {
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 141, 221, 0.9);
+    padding: 2em;
+    font-size: 1.5em;
+}
+.boton-plato {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 141, 221, 0.9);
+    cursor: pointer;
+}
+.boton-plato:hover {
+    background: rgb(0, 153, 0, 0.7);
+}
+.nom_plato {
+    text-decoration: none;
+    color: white;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.proceso-pedido {
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    padding: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.proceso-pedido2 {
+    background-color: rgb(0, 141, 221, 0.8);
+    border-radius: .01em;
+    text-align: center;
+    font-size: 3em;
+}
+.proceso-pedido3 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.proceso-pedido4 {
+    background-color: rgb(0, 141, 221, 0.8);
+    text-align: left;
+    padding: 1em;
+    font-size: 2.5em;
+}
+.detalle-pedido {
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: rgb(127, 219, 250, .5);
+    border-radius: .3em;
+}
+#tabla_resultado {
+    background-color: rgb(0, 141, 221);
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 51.7%;
+    margin: auto;
+}
+.tabla_resultado2 {
+    padding-top: 3em;
+}
+.table {
+    text-align: center;
+    border-spacing: 0.2em;
+}
+td {
+    text-align: center;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.fila1 {
+    background: rgb(0, 153, 0, 0.8);
+}
+tr td {
+    border-color: solid #000000;
+}
+td a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: rgb(0, 153, 0, 0.7);
+    padding: 0.1em;
+    border-radius: 1em;
+}
+.titulo_tabla {
+    text-align: center;
+    background: rgb(0, 153, 0, 0.7);
+    color: #FFFFFF;
+    font-size: 2em;
+}
+.btn {
+    background: rgb(0, 153, 0, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 4px 9px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 1.4s;
+    transition-duration: 0.7s;
+}
+.btn:hover {
+    background-color: rgb(0, 141, 221, 0.6);
+    color: white;
+}
+.select {
+    padding-left: 25em;
+    padding-right: 25em;
+}
+.select2 {
+    padding: 0.7em;
+    background-color: rgb(0, 141, 221, 0.8);
+    border-radius: 2em;
+}
+.ubicacion1 {
+    padding: 4em;
+}
+.ubicaciontitulo {
+    padding-left: 30em;
+    padding-right: 30em;
+    padding-bottom: 3em;
+}
+.ubicaciontit {
+    background-color: rgb(0, 141, 221, 0.7);
+    font-size: 2em;
+}
+.table {
+    background: rgb(0, 190, 253, 0.9);
+    margin-top: 2.5em;
+}
+.titulitos {
+    background: rgb(0, 153, 0, 0.7);
+    color: #FFFFFF;
+}
+.plato2 {
+    background-color: rgb(15, 224, 10, 0.6);
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 2em;
+}
